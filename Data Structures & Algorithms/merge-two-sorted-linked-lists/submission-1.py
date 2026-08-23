@@ -19,7 +19,7 @@ class Solution:
         if tmp1 is not None:
 
             tmp3.next=tmp1
-        elif tmp2 is not  None:
+        else:
             tmp3.next=tmp2  
         return head.next     
 
